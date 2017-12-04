@@ -1,6 +1,8 @@
 {% load static %}
 
 <link rel="stylesheet" type="text/css" href="{% static 'howdy/style.css' %}" />
+<!--set responsive viewport, very important, first step! :D -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <DOCTYPE html>
 <HTML>
@@ -8,6 +10,8 @@
 
 <HEAD> 
 	<TITLE> STINA | HomePage </TITLE>
+	<!--this is where you used to link your css file, but we have a new one and a new system
+	so that link is now at the top of the page-->
 	<!--<link rel="stylesheet" type="text/css" href="stylesheet.css">-->
 
 		    
@@ -42,20 +46,84 @@
  achievements and goals. 
 </P>
 
+<!--
+trying to make these two sit next to each other 
+-->
+<div class="row">
+	<div class="col-6"> Practice <br>
+		<p class="newbodyofh2">
+		This is just to show that you can have multiple content in two cols. Could be useful, might not. More just to show what is possible with this responsive grid layout.   
+		</p>
+	</div> 
+	<div class="col-6"> Practice practice 
+	<br>
+	<p  class="newbodyofh2">
+	notice what happens when we change the size of the window viewing this. Lets explore a few of the chrome preset options. 
+	</p>
+	</div> 
+</div>
 
-<P class="para"> Practice </P>
+<div class="row">
+	<div class = "col-4">
+		<p class="newbodyofh2">
+			we can also lay these out in three cols to one row.
+		</p>
+	</div>
+	<div class = "col-4">
+		<p class="newbodyofh2">
+			this could be useful for whatever we put in your portfolio
+		</p>
+	</div>
+	<div class = "col-4">
+		<p class="newbodyofh2">
+			This, however, isn't perfect. Lets change the size and try some different mobile devices through the chrome tool.
+			<br>
+			We have more work to do (and I've got to figure out how we're going to fix it :D ) 
+		</p>
+	</div>
+</div>
 
 
 
-<P class="para"> Practice practice </P>
 									      
+<!--lets put some info to the left of this pug image, just to practice stacking rows-->
 
-<img class="imagec" src="pug.jpg" width="300" height="200">
+<div class="row">
+	<div class="col-2">
+		<p class="newbodyofh2">
+			so, one thing we had here, that we're going to get ride of for right now, is fixed-width elements.
+			<br>
+			those make it pretty hard to make a responsive website... 
+		</p>
+	</div>
+	<div class="col-10">
+		<p>IMAGE HERE EVENTUALLY.... <br>
+		================================================================
+		<br>|
+		<br>|
+		<br>|
+		<br>|
+		<br>|
+		<br>|	
+		</p>
+	</div>
+</div>
 
-<P id="para1homepage"> Practice <span class="highlight"> MOFU  </span></P>
+<div class="row">
+	<div class="col-12">
+		<p class="newbodyofh2">
+			more practice...you had something highlighted? We gonna avoid that for right now...
+		</p>
+	</div>
+</div>
 
-<H3> More interesting links </H3>
-<a href="https://www.facebook.com/"> MY FACEBOOK PAGE </a>
+<div class="row">
+	<div class="col-12">
+		<p> More interesting links </p>
+		<br>
+		<a href="https://www.facebook.com/"> MY FACEBOOK PAGE </a>
+	</div>
+</div>
 
 </BODY>
 </HTML>
