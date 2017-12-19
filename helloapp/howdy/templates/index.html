@@ -6,73 +6,67 @@
 
 <DOCTYPE html>
 <HTML>
-
-
 <HEAD> 
 	<TITLE> STINA | HomePage </TITLE>
 	<!--this is where you used to link your css file, but we have a new one and a new system
 	so that link is now at the top of the page-->
 	<!--<link rel="stylesheet" type="text/css" href="stylesheet.css">-->
 </HEAD>
-
-
 <BODY>
-<div id="wrapper"> 
-<nav>
-  <ul class="main_menu">
-	 <li><a href="/">Home</a></li>
-	 <li><a href="/about/">About Me</a></li>
-	 <li><a href="/portfolio/">Portfolio</a></li>
-	 <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
+<div> 
 <header>
-	<H1 ALIGN="CENTER">  christina g rodriguez </H1>
+	<h1 class="header">  christina g rodriguez </h1>
 </header>
 </div>
+<div class="col-3 col-m-3 menu">
+<nav>
+	<ul>
+		 <a href="/"><li>Home</li></a>
+		 <a href="/about/"><li>About Me</li></a>
+		 <a href="/portfolio/"><li>Portfolio</li></a>
+		 <a href="contact.html"><li>Contact</li></a>
+	</ul>
+</nav>
+</div>
+<div class="col-6 col-m-9">
+<h3> Welcome! </h3>
 
-
-
-
-<H3 class="blue"> Welcome! </H2>
-
-<P class="bodyofh2"> As always, I decided to learn something new and I want to show and tell everyone. Coding 
+<p> As always, I decided to learn something new and I want to show and tell everyone. Coding 
  and designing are just a few of the many subjects that I am currently exploring and eagerly
  excited to share with my friends and family. Soon (I <span style="text-decoration: line-through;"> hope</span> know) I will use this website as more 
  than just a quirky way of expressing myself but also as a professional webpage that displays my    
  achievements and goals. 
-</P>
+</p>
+</div>
 
-<!--
-trying to make these two sit next to each other 
--->
 <div class="row">
-	<div class="col-6"> Practice <br>
-		<p class="newbodyofh2">
+	<div class="col-6 col-m-6">
+		<h3 class="aside">Practice</h3>
+		<p>
 		This is just to show that you can have multiple content in two cols. Could be useful, might not. More just to show what is possible with this responsive grid layout.   
 		</p>
 	</div> 
-	<div class="col-6"> Practice practice 
-	<br>
-	<p  class="newbodyofh2">
-	notice what happens when we change the size of the window viewing this. Lets explore a few of the chrome preset options. 
-	</p>
+	<div class="col-6 col-m-6"> 
+		<h3 class="aside">Practice practice</h3>
+		<p>
+		notice what happens when we change the size of the window viewing this. Lets explore a few of the chrome preset options. 
+		</p>
 	</div> 
 </div>
 
 <div class="row">
-	<div class = "col-4">
-		<p class="newbodyofh2">
+	<div class = "col-4 col-m-12">
+		<p>
 			we can also lay these out in three cols to one row.
 		</p>
 	</div>
-	<div class = "col-4">
-		<p class="newbodyofh2">
+	<div class = "col-4 col-m-12">
+		<p>
 			this could be useful for whatever we put in your portfolio
 		</p>
 	</div>
-	<div class = "col-4">
-		<p class="newbodyofh2">
+	<div class = "col-4 col-m-12">
+		<p>
 			This, however, isn't perfect. Lets change the size and try some different mobile devices through the chrome tool.
 			<br>
 			We have more work to do (and I've got to figure out how we're going to fix it :D ) 
@@ -86,16 +80,16 @@ trying to make these two sit next to each other
 <!--lets put some info to the left of this pug image, just to practice stacking rows-->
 
 <div class="row">
-	<div class="col-2">
-		<p class="newbodyofh2">
+	<div class="col-6 col-m-6">
+		<p>
 			so, one thing we had here, that we're going to get ride of for right now, is fixed-width elements.
 			<br>
 			those make it pretty hard to make a responsive website... 
 		</p>
 	</div>
-	<div class="col-10">
+	<div class="col-6 col-m-6">
 		<p>IMAGE HERE EVENTUALLY.... <br>
-		================================================================
+		==================
 		<br>|
 		<br>|
 		<br>|
@@ -107,7 +101,7 @@ trying to make these two sit next to each other
 </div>
 
 <div class="row">
-	<div class="col-12">
+	<div class="col-12 col-m-12">
 		<p class="newbodyofh2">
 			more practice...you had something highlighted? We gonna avoid that for right now...
 		</p>
@@ -115,7 +109,7 @@ trying to make these two sit next to each other
 </div>
 
 <div class="row">
-	<div class="col-12">
+	<div class="col-12 col-m-12">
 		<p> More interesting links </p>
 		<br>
 		<a href="https://www.facebook.com/"> MY FACEBOOK PAGE </a>

@@ -4,20 +4,30 @@
 <link rel="stylesheet" type="text/css" href="{% static 'howdy/style.css' %}" />
 <!--set responsive viewport, very important, first step! :D -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!DOCTYPE html>
-<html>
-<div id="wrapper"> 
-    <nav>
-        <ul class="main_menu">
-         <li><a href="/">Home</a></li>
-         <li><a href="/about/">About Me</a></li>
-         <li><a href="/portfolio/">Portfolio</a></li>
-         <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+
+<DOCTYPE html>
+<HTML>
+<HEAD> 
+    <TITLE> STINA | HomePage </TITLE>
+    <!--this is where you used to link your css file, but we have a new one and a new system
+    so that link is now at the top of the page-->
+    <!--<link rel="stylesheet" type="text/css" href="stylesheet.css">-->
+</HEAD>
+<BODY>
+<div> 
 <header>
-    <H1 ALIGN="CENTER">  christina g rodriguez </H1>
+    <h1 class="header">  christina g rodriguez </h1>
 </header>
+</div>
+<div class="col-3 col-m-3 menu">
+<nav>
+    <ul>
+         <a href="/"><li>Home</li></a>
+         <a href="/about/"><li>About Me</li></a>
+         <a href="/portfolio/"><li>Portfolio</li></a>
+         <a href="contact.html"><li>Contact</li></a>
+    </ul>
+</nav>
 </div>
 <head>
     <meta charset="utf-8">
