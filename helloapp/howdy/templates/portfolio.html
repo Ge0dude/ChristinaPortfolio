@@ -35,15 +35,31 @@
 </head>
 <body>
     <h1>Welcome to the portfolio page</h1>
-<p>
-tiles of all the stuff I do in life...   
-</p>
-<p>
-    <b>
-        maybe we can put examples of your learning on here and use this as something <br>
-         to submit when you apply to med school?
-    </b>
-</p>
+
+<div class="row">
+    <p>
+    tiles of all the stuff I do in life...   
+    </p>
+    <p>
+        <b>
+            maybe we can put examples of your learning on here and use this as something <br>
+             to submit when you apply to med school?
+        </b>
+    </p>
+</div>
+
+<div class='col-4 col-m-6'>
+    <img src="{% static "howdy/pugPic1.jpg" %}" alt="My image"/>
+</div>
+
+<div class ="col-4 col-m-6">
+    <img src="{% static "howdy/pugPic2.jpg" %}" alt="Pug picture"/>
+</div>
+
+<div class="col-4 col-m-6">
+    <img src="{% static "howdy/pugPic3.jpg" %}" alt="Another pug"/>
+</div>
+
 <a href="/">Go back home</a>
 </body>
 </html>

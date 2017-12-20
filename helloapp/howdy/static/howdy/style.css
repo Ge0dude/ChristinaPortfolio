@@ -57,6 +57,13 @@ a:visited {
     font-size: 12px;
     padding: 15px;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
@@ -91,6 +98,8 @@ a:visited {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 }
+
+
 
 
 /* ^ ^ ^ ^ ^ ^ ^ ^
